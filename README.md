@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[Link to Markdown CV](https://github.com/mishachez/rsschool-cv/cv)
+[Link to Markdown CV](https://mishachez.github.io/rsschool-cv/cv)
