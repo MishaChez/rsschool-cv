@@ -8,7 +8,6 @@
 + **Phone:** +375292860218 (Viber, WhatsApp,Telegram)
 + **GitGub:** MishaChez 
 + **GitGub:**
-+ **GitGub:**
 
 ###
 
