@@ -7,7 +7,6 @@
 + **Email:** mkadchez@gmail.com
 + **Phone:** +375292860218 (Viber, WhatsApp,Telegram)
 + **GitGub:** MishaChez 
-+ **GitGub:**
 
 ###
 
