@@ -99,6 +99,10 @@ h1, h2, h3, h4, h5, h6 {
   .link span {
     color: rgba(0, 0, 0, 0.75);
     font-size: 19px; }
+  .link a {
+    color: rgba(0, 0, 0, 0.62); }
+  .link a:hover {
+    color: black; }
 
 .header {
   background-color: #f8fafa;
@@ -139,7 +143,15 @@ h1, h2, h3, h4, h5, h6 {
   .header__list {
     margin: 0 0 40px; }
 
+.summary {
+  padding: 70px 0; }
+  .summary__body {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.62);
+    line-height: 24px; }
+
 .skils {
+  background-color: #f8fafa;
   padding: 70px 0 0; }
   .skils__row {
     display: flex;
@@ -185,7 +197,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover; }
 
 .examples {
-  background-color: #f8fafa;
   padding: 70px 0 0; }
   .examples__title {
     margin: 0 0 70px; }
@@ -202,14 +213,42 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     height: 100%;
     padding: 0 0 500px; }
-
+    .examples__column:hover .examples__hover {
+      visibility: visible;
+      opacity: 1;
+      animation-name: hover_visable__examples;
+      animation-duration: 0.3s; }
+  .examples__hover {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background: rgba(252, 248, 248, 0.9);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+  .examples__name {
+    text-align: center;
+    margin: 225px 0 0;
+    font-size: 42px;
+    color: black;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 5px; }
+@keyframes hover_visable__examples {
+  from {
+    opacity: 0;
+    visibility: hidden; }
+  to {
+    opacity: 1;
+    visibility: visible; } }
 .experience {
+  background-color: #f8fafa;
   padding: 70px 0; }
   .experience__title {
     margin: 0 0 70px; }
 
 .education {
-  background-color: #f8fafa;
   padding: 70px 0; }
 
 .footer {
@@ -220,9 +259,19 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; }
-  .footer__info {
+  .footer__column {
+    flex: 0 0 200px; }
+  .footer__column-info {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.69);
-    line-height: 24px; }
+    line-height: 24px;
+    text-align: left; }
+  .footer__column-infok {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.69);
+    line-height: 24px;
+    text-align: center; }
+  .footer__column-logo {
+    text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
