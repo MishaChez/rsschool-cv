@@ -123,6 +123,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.link {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.62);
+  line-height: 24px;
+  margin: 0 0 20px;
+
+  span {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 19px;
+
+  }
+}
+
 //====================================================================================================>
 
 .header {
@@ -185,10 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 
   // .header__link
   &__link {
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.62);
-    line-height: 24px;
-    margin: 0 0 20px;
+
   }
 }
 
@@ -295,6 +305,68 @@ h1, h2, h3, h4, h5, h6 {
 
 //====================================================================================================>
 
+.experience {
+  padding: 70px 0;
+
+
+  // .experience__title
+  &__title {
+    margin: 0 0 70px;
+
+  }
+
+  // .experience__list
+  &__list {
+
+  }
+
+  // .experience__link
+  &__link {
+
+
+  }
+
+}
+
+//====================================================================================================>
+
+.education {
+  background-color: rgb(248, 250, 250);
+  padding: 70px 0;
+  // .education__title
+  &__title {
+  }
+
+  // .education__list
+  &__list {
+  }
+
+  // .education__link
+  &__link {
+  }
+}
+
+//====================================================================================================>
 
 .footer {
+  background-color: rgba(49, 49, 49, 0.8);
+  padding: 30px 0;
+  // .footer__row
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  // .footer__info
+  &__info {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.69);
+    line-height: 24px;
+  }
+
+  // .footer__logo
+  &__logo {
+  }
 }
