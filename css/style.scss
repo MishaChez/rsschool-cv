@@ -121,6 +121,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
     letter-spacing: 5px;
   }
+
+	h3 {
+		margin: 0 0 15px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: 3px;
+	}
 }
 
 .link {
@@ -188,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   background-color: rgb(248, 250, 250);
-  padding: 90px 0 0;
+  padding: 130px 0 0;
 
   // .header__row
   &__row {
@@ -347,6 +357,13 @@ h1, h2, h3, h4, h5, h6 {
   &__title {
     margin: 0 0 70px;
   }
+	// .examples__code
+
+	&__code {
+font-family: "Courier New", Courier, monospace;
+font-size: 16px;
+padding: 0 0 130px;
+	}
 
   // .examples__row
   &__row {
@@ -354,7 +371,9 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 0 0 130px;
+		padding: 0 0 70px;
+
+    
   }
 
   // .examples__column
@@ -468,7 +487,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
   background-color: rgba(49, 49, 49, 0.8);
-  padding: 30px 0;
+  padding: 10px 0;
   // .footer__row
   &__row {
     display: flex;
@@ -486,8 +505,10 @@ h1, h2, h3, h4, h5, h6 {
   &__column-info {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.69);
-    line-height: 24px;
+    // line-height: 24px;
     text-align: left;
+		padding: 13px 0 0;
+
   }
 
   // .footer__column-infok
@@ -496,6 +517,8 @@ h1, h2, h3, h4, h5, h6 {
     color: rgba(0, 0, 0, 0.69);
     line-height: 24px;
     text-align: center;
+		padding: 13px 0 0;
+
   }
 
   // .footer__column-logo
